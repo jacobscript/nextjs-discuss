@@ -11,3 +11,8 @@ const nextConfig = {
 };
 
 module.exports = nextConfig;
+
+// next.config.js
+module.exports = {
+  basePath: process.env.NODE_ENV === 'production' ? '/nextjs-discuss' : '',
+}
